@@ -1,0 +1,53 @@
+先序遍历（递归）： A B D C E 
+先序遍历（迭代）： A B D C E 
+中序遍历（递归）： B D A E C 
+中序遍历（迭代）： B D A E C 
+后序遍历（递归）： D B E C A 
+后序遍历（迭代）： D B E C A 
+层次遍历： A B C D E 
+叶子数目： 2
+树的深度： 3
+复制的树：
+      c
+            e
+a
+            d
+      b
+先序遍历（递归）： A B D E G C F H I 
+先序遍历（迭代）： A B D E G C F H I 
+中序遍历（递归）： D B G E A C H F I 
+中序遍历（迭代）： D B G E A C H F I 
+后序遍历（递归）： D G E B H I F C A 
+后序遍历（迭代）： D G E B H I F C A 
+层次遍历： A B C D E F G H I 
+叶子数目： 4
+树的深度： 4
+复制的树：
+                  i
+            f
+                  h
+      c
+a
+            e
+                  g
+      b
+            d
+先序遍历（递归）： A B D G C E H I F 
+先序遍历（迭代）： A B D G C E H I F 
+中序遍历（递归）： D G B A H E I C F 
+中序遍历（迭代）： D G B A H E I C F 
+后序遍历（递归）： G D B H I E F C A 
+后序遍历（迭代）： G D B H I E F C A 
+层次遍历： A B C D E F G H I 
+叶子数目： 4
+树的深度： 4
+复制的树：
+            f
+      c
+                  i
+            e
+                  h
+a
+      b
+                  g
+            d
