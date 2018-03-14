@@ -1,0 +1,38 @@
+please input vertexNum and edgeNum 
+please input edge(start, end, weight, start from Num.0): 
+your matrix is: 
+¡Þ ¡Þ 10 ¡Þ 30 100 
+¡Þ ¡Þ 5 ¡Þ ¡Þ ¡Þ 
+¡Þ ¡Þ ¡Þ 50 ¡Þ ¡Þ 
+¡Þ ¡Þ ¡Þ ¡Þ ¡Þ 10 
+¡Þ ¡Þ ¡Þ 20 ¡Þ 60 
+¡Þ ¡Þ ¡Þ ¡Þ ¡Þ ¡Þ 
+please input start vertex: 
+
+µÚ0ÂÖ
+v1 --> v0 2147483647 0
+v1 --> v2 5 1
+v1 --> v2 --> v3 55 0
+v1 --> v4 2147483647 0
+v1 --> v5 2147483647 0
+
+µÚ1ÂÖ
+v1 --> v0 2147483647 0
+v1 --> v2 5 1
+v1 --> v2 --> v3 55 1
+v1 --> v4 2147483647 0
+v1 --> v2 --> v3 --> v5 65 0
+
+µÚ2ÂÖ
+v1 --> v0 2147483647 0
+v1 --> v2 5 1
+v1 --> v2 --> v3 55 1
+v1 --> v4 2147483647 0
+v1 --> v2 --> v3 --> v5 65 1
+
+shortest path from v1 to the other vertex are :
+v1 to v0: path = NULL, value = ¡Þ
+v1 to v2: path = v1 --> v2, value = 5
+v1 to v3: path = v1 --> v2 --> v3, value = 55
+v1 to v4: path = NULL, value = ¡Þ
+v1 to v5: path = v1 --> v2 --> v3 --> v5, value = 65
